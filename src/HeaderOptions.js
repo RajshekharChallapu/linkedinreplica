@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HeaderOptions.css"
 
-function HeaderOptions({Icon, title}) {
+function HeaderOptions({ Icon, title}) {
     return (
         <div className="headerOptions">
             {Icon && <Icon className='headeroptions_icon' />}

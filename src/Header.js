@@ -7,6 +7,7 @@ import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import PersonIcon from '@material-ui/icons/Person';
 
 function Header() {
     return (
@@ -23,8 +24,8 @@ function Header() {
                 <HeaderOptions Icon={SupervisorAccountIcon} title="Network" />
                 <HeaderOptions Icon={BusinessCenterIcon} title="Jobs" />
                 <HeaderOptions Icon={ChatIcon} title="Messaging" />
-                <HeaderOptions Icon={NotificationsIcon} title="Notifications"/>
-
+                <HeaderOptions Icon={NotificationsIcon} title="Notifications" />
+                <HeaderOptions Icon={PersonIcon} title="me"/>
             </div>
         </div>
     )
